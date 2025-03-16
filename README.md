@@ -1,6 +1,8 @@
 
 ## Ejercicio Refactor Kotlin: Agencia de Viajes
 
+[![build](https://github.com/uqbar-project/agencia-viajes-kotlin-refactor/actions/workflows/build.yml/badge.svg)](https://github.com/uqbar-project/agencia-viajes-kotlin-refactor/actions/workflows/build.yml) [![codecov](https://codecov.io/gh/uqbar-project/agencia-viajes-kotlin-refactor/graph/badge.svg?token=zUDO5ChGRI)](https://codecov.io/gh/uqbar-project/agencia-viajes-kotlin-refactor)
+
 Queremos modelar las vacaciones que ofrece una agencia de viajes, para lo cual sabemos que la agencia ofrece tours que tienen
 
 - un cupo máximo de personas que se pueden anotar
@@ -25,8 +27,8 @@ Los requerimientos que se piden son:
 
 Tenemos una solución actual donde tenemos
 
-- [estas definiciones](./src/main/kotlin/ar/edu/algo2/viajes/AgenciaViajes.kt)
-- [y estos tests](./src/test/kotlin/ar/edu/algo2/viajes/AgenciaViajesSpec.kt)
+- [estas definiciones](./src/main/kotlin/ar/edu/unsam/algo2/viajes/AgenciaViajes.kt)
+- [y estos tests](./src/test/kotlin/ar/edu/unsam/algo2/viajes/AgenciaViajesSpec.kt)
 
 Se pide que encuentre code smells y piense refactors para mejorar el código.
 
